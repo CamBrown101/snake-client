@@ -19,6 +19,8 @@ const handleUserInput = (stdin, conn) => {
     if (key === 's') { conn.write("Move: down") };
     if (key === 'a') { conn.write("Move: left") };
     if (key === 'd') { conn.write("Move: right") };
+    if (key === 'q') { conn.write("Say: Coding is the BEST!!") };
+    if (key === 'e') { conn.write("Say: I am the snake CHAMPION!!!!") };
   });
 };
 
